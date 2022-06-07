@@ -12,6 +12,9 @@ if file_name == 'romeo.txt':
 uniques.sort()
 print(len(uniques))
 print(uniques)
+
+#program for collecting email ids
+
 MBOX=[]
 count = 0
 file_name = input("Enter name of file: ")
