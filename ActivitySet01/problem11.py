@@ -11,6 +11,4 @@ if text_name == "p":
             else:
                 senders[words[1]] += 1
 for tpl in senders:
-    reqdlist.append((senders[tpl],tpl))
-reqdlist.sort()
-print(reqdlist[-1])
+    reqdlist.append((senders[tpl],tpl
