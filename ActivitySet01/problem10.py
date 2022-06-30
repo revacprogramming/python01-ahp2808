@@ -1,9 +1,14 @@
-# Dictionaries
-#filename = "dataset/mbox-short.txt"
-num_of_days = dict()
-file_name = input("Enter name of file: ")
-if file_name == 'p':
-    file_exe = open('progrm8.txt')
+def in_put() :
+    file_name = input("Enter name of file: ")
+    return file_name
+
+def execute_file(file_name) :
+    if file_name == 'p':
+        file_exe = open('progrm8.txt')
+    return file_exe
+
+def find_days(file_exe) :
+    num_of_days = dict()
     for lines in file_exe:
         if lines.startswith("From "):
             words = lines.split()
@@ -11,18 +16,12 @@ if file_name == 'p':
                 num_of_days[words[2]] = 1
             else:
                 num_of_days[words[2]] += 1
-print(num_of_days)
+    print(num_of_days)
 
-senders_emails = dict()
-file_name = input("Enter the name of file: ")
-if file_name == 'p':
-    file_exe = open('progrm8.txt')
-    for lines in file_exe :
-        if lines.startswith('From '):
-            words = lines.split() 
-            if words[1] not in senders_emails:
-                senders_emails[words[1]] = 1
-            else:
-                senders_emails[words[1]] += 1
-print(senders_emails)
-print(len(senders_emails))
+def main() :
+    file_name = in_put()
+    file_exe = execute_file(file_name)
+    find_days(file_exe)
+
+if __name__ == '__main__' :
+    main()
