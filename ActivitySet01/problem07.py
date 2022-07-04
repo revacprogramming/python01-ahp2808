@@ -2,7 +2,7 @@ def enter_text() :
     text = input("Enter the text: ")
     return text
 
-# text = "X-DSPAM-Confidence: 0.8475 "
+# text = "X-DSPAM-Confid 0.8475 "
 def find_numb(text) :
 
     index = text.find(':')
