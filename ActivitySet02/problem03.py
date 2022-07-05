@@ -15,3 +15,4 @@ def main() :
     print(lot)
 if __name__ == '__main__':
     main()
+	#systemdatabaseusrnmpasswd
