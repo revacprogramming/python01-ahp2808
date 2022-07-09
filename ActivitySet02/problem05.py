@@ -1,4 +1,4 @@
-#s=system;d=database;u=username;p=password
+#s=system;d=database;u=username;p=ord
 def get_cs():
     cs = input("enter your value")
     return cs
@@ -20,13 +20,10 @@ def dict_to_cs(d):
 
 def main():
     cs = get_cs()
-
     d = cs_to_dict(cs) 
     print(d)
-
     cs = dict_to_cs(d)
     print(cs)
-
 
 if __name__ == '__main__':
     main()
