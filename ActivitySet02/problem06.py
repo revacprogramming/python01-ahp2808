@@ -7,7 +7,7 @@ class Menu:
         return name,amount
     def show(self):
         print(Menu.add)
-m = Menu()  # Menu is a class
+m = Menu()  
 m.add("idli", 10)
 m.add("vada", 20)
 m.show()
