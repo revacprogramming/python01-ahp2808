@@ -31,6 +31,6 @@ def main() :
     text_exe = executefile(text_name)
     sender = sender_dict(text_exe)
     sender_list(sender)
-￼#.. //
+￼#.
 if __name__ == "__main__" :
 main()
