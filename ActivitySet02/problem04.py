@@ -23,5 +23,4 @@ def main() :
     print(lot)
     cs = lot_to_cs(lot)
     print(cs)
-if __name__=='__main__':
-    main()
+main()
