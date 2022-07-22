@@ -7,7 +7,7 @@ def inp_no_of_rectangle():
 def inp_coordinates(x):
     crd=[]
     str = input(f"Enter three coordinates for the rectangle: ")
-    crd1=re.findall('\d',str)
+    crd1=str.split()
     for ele in crd1:
         crd.append(float(ele))
     if len(crd1)<6 | len(crd1)>6 :
