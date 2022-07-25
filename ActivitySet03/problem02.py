@@ -33,6 +33,6 @@ if __name__ == '__main__':
 '''
 input : 2
     10 20
-output :
+output
 1/10+1/20=3/20
 '''        
