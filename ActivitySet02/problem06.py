@@ -1,5 +1,4 @@
-''' idly 10
-    vada 20'''
+' idly 10 vada 20'
 class Menu:
     def add(self,name,amount):
         return name,amount
