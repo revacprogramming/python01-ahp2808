@@ -36,7 +36,7 @@ def main():
         n+=1
 if __name__ == '__main__':
     main()
-''' Sample input :  1
+''' input :  1
     0.0 0.0 0.0 1.0 1.0 0.0
-    Resultant output :
+   output :
     Area of rectangle with vertices (0.0,0.0),(0.0,1.0),(1.0,0.0) is 1.0'''
