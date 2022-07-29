@@ -22,6 +22,5 @@ def main() :
     file_name = in_put()
     file_exe = execute_file(file_name)
     find_days(file_exe)
-￼#infuncform
 if __name__ == '__main__' :
     main()
